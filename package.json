@@ -90,5 +90,6 @@
     "test": "date && mocha --compilers js:babel-core/register tests --recursive",
     "serve:epub": "./node_modules/.bin/serve -p 8089 ./node_modules/epub3-samples/accessible_epub_3",
     "test:webservice": "./node_modules/.bin/babel-node ./src/WebService.js"
-  }
+  },
+  "main": "dist/SearchEngine.js"
 }
